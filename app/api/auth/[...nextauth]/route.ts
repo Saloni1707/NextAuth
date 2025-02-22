@@ -18,9 +18,9 @@ const handler = NextAuth({
 
         // Mock user data
         const user = {
-          name: "Harkirat",
+          name: "Saloni",
           id: "1",
-          username: "harkirat@gmail.com"
+          username: "saloniatole@gmail.com"
         };
 
         if (user) {
@@ -40,5 +40,5 @@ const handler = NextAuth({
   
 });
 
-// 🚀 Fix: Use named exports for GET and POST methods
+//  Use named exports for GET and POST methods
 export { handler as GET, handler as POST };
